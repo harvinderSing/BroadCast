@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
     @Override
     protected void onResume() {
         // TODO Auto-generated method stub
@@ -75,10 +73,4 @@ public class MainActivity extends AppCompatActivity {
         //unregister our receiver
         this.unregisterReceiver(this.mReceiver);
     }
-
-
-
-
-
-
 }
